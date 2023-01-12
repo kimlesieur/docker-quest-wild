@@ -1,0 +1,2 @@
+To test the server : 
+curl -X POST http://localhost:5050

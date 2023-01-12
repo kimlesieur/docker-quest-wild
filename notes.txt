@@ -1,0 +1,9 @@
+Problem with CRA and Websocket : 
+The websocket port seems to be harcoded to 3000.
+Since our Docker container is exposing the port 8080, the browser
+hot reloading isn't working. 
+
+--> Fix can be to set a new port for websocket ? 
+I tries defining a .env file and set WDS_SOCKET_PORT=8080
+but doesn't seems to work. 
+Should I configure a third librarie to set environment vars ? 
